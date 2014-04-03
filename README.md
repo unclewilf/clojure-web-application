@@ -1,6 +1,10 @@
-# ex-web
-
 A Compojure Demo from the Function Programming With Clojure course.
+
+To run in REPL use:
+
+(app {:request-method :get
+      :uri "/kittens/10"})
+
 
 ## License
 
